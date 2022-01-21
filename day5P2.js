@@ -16,12 +16,12 @@ function cToF(temp) {
 }
 cToF(tempC);
 
-//challenge 3
+//challenge 3.....
 
 const tips = [5, 8, 13, 2, 14, 27, 9, 18];
-let total = 0;
 
 function calcTips(arr) {
+  let total = 0;
   for (i = 0; i < arr.length; i++) {
     total += arr[i];
   }
@@ -31,9 +31,9 @@ function calcTips(arr) {
 calcTips(tips);
 
 const myArr = [5, 8, 7, 12, 13, 17, 22];
-let evenTotal = 0;
 
 function addEven(arr) {
+  let evenTotal = 0;
   for (i = 0; i < arr.length; i++) {
     if (arr[i] % 2 === 0) {
       evenTotal += arr[i];
